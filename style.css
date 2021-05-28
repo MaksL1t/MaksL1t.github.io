@@ -428,7 +428,7 @@ ul li:nth-child(5) .shd{
     font-family: Montserrat; 
     src: url(Montserrat-Light.ttf);
 }
-@media screen and (max-width: 376px) {
+@media screen and (max-width: 476px) {
 	*{
 		overflow-x: hidden;
 	}
