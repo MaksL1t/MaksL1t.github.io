@@ -429,15 +429,9 @@ ul li:nth-child(5) .shd{
     src: url(Montserrat-Light.ttf);
 }
 @media screen and (max-width: 476px) {
-	*{
-		overflow-x: hidden;
-	}
 	header{
 		font-size: 5px;
 		padding: 0;
-	}
-	header a{
-		font-size: 12px;
 	}
 	.lg{
 		padding: 0;
@@ -446,11 +440,11 @@ ul li:nth-child(5) .shd{
 		padding-left: 20px;
 	}
 	.lg h1{
-		font-size: 15px;
+		font-size: 16px;
 	}
 	.menu{
 		width: 70%;
-		font-size: 11px;
+		font-size: 12px;
 	}
 	.topmenu{
 		padding: 0;
@@ -458,11 +452,29 @@ ul li:nth-child(5) .shd{
 	.topmenu > li > a{
 		padding: 5px;
 	}
+	.submenu{
+		width: 100px;
+	}
+	.submenu a{
+		font-size: 12px;
+	}
 	.reg{
 		display: none;
 	}
 	.inf p{
-		font-size: 25px;
+		font-size: 22px;
+		width: 100%;
+	}
+	.inf{
+		padding: 20px;
+		width: 100%;
+	}
+	.arr{
+		font-size: 1.5em;
+	}
+	@keyframes bounce {  
+    0%  { bottom: -150px;   }
+  	100% { bottom: -80px; color: rgba(171, 237, 216, 0.5); transition: 1s;} 
 	}
 	#o {
 		font-size: 27px;
@@ -478,8 +490,9 @@ ul li:nth-child(5) .shd{
 	    right: 0;
 	    height: 200px;
 	    font-size: 12px;
-	    margin-top: 100px;
+	    margin-top: 15%;
 	    padding: 20px;
+	    box-shadow: 0 0 0 0 #abedd8;
 	}
 	#vnal, #dorog, #zakaz, #cn{
 		font-size: 27px;
@@ -489,12 +502,13 @@ ul li:nth-child(5) .shd{
 	}
 	#dorog{
 		width: 150px;
+		margin-top: 25%;
 	}
 	#cn{
 		width: 140px;
 	}
 	.katalog{
-		margin-top: -300px; 
+		margin-top: -110%; 
 		overflow-y: hidden;
 	}
 	#zakaz{
@@ -504,7 +518,7 @@ ul li:nth-child(5) .shd{
 	width: 100%;
 	height: 30%;
 	margin: auto;
-	margin-top: 30px;
+	margin-top: 5%;
 	display: flex;
 	justify-content: space-around;
 	align-items: center;
@@ -516,7 +530,7 @@ ul li:nth-child(5) .shd{
 	width: 100%;
 	height: 30%;
 	margin: auto;
-	margin-top: 30px;
+	margin-top: 5%;
 	display: flex;
 	justify-content: space-around;
 	align-items: center;
@@ -550,8 +564,9 @@ ul li:nth-child(5) .shd{
 		padding: 1px;
 		text-decoration: none;
 		color: #000;
-		margin-left: 25%;
-		margin-top: 7px;
+		margin-left: 50%;
+    	transform: translateX(-50%);
+		margin-top: 7%;
 		font-size: 10px;
 }
 #topBtn{
@@ -572,15 +587,12 @@ ul li:nth-child(5) .shd{
 	    right: 0;
 	    height: 240px;
 	    font-size: 12px;
-	    display: flex;
-	    flex-direction: column;
-	    justify-content: center;
-	    align-items: center;
-	    text-align: center;
+	    padding: 20px;
 	    box-shadow: 0 0 0 0 #abedd8;
 	}
 	.cont{
-		height: 300px;
+		height: 30%;
+		margin-top:-40%; 
 	}
 	.cont ul {
 	    position: relative;
